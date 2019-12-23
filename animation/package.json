@@ -1,0 +1,22 @@
+{
+  "name": "specify-animation",
+  "version": "0.1.0",
+  "description": "UI animation tests for Specify",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oaao/specify-uitests.git"
+  },
+  "author": "Oliver Antoniu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oaao/specify-uitests/issues"
+  },
+  "homepage": "https://github.com/oaao/specify-uitests#readme",
+  "dependencies": {
+    "animejs": "^3.1.0"
+  }
+}
