@@ -15,14 +15,14 @@ function createEl(i) {
   const hue = 143 //Math.round(360 / numberOfEls * i);
   el.classList.add('el');
   // change hsl to 40%,60% for original hue gradient
-  el.style.backgroundColor = 'hsl( 143, 43%, 37%)';
+  el.style.backgroundColor = 'hsl( 143, 43%, 38%)';
   el.style.transform = 'rotate(' + rotate + 'deg) translateY(' + translateY + '%)';
   tl.add({
     begin: function() {
       anime({
         targets: el,
         // change HSL to [40%,60%, 60%,80%] for original hue gradient
-        backgroundColor: ['hsl(' + hue + ', 43%, 30%)', 'hsl(' + hue + ', 0%, 20%)'],
+        backgroundColor: ['hsl(' + hue + ', 43%, 31%)', 'hsl(' + hue + ', 0%, 17%)'],
         rotate: [rotate + 'deg', rotate + 10 +'deg'],
         translateY: [translateY + '%', translateY + 10 + '%'],
         scale: [1, 1.25],
