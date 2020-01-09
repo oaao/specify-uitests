@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300,400,700');
+
+*, *::before, *::after {
+    font-family: "Roboto", "Helvetica", sans-serif;
+    font-weight: 300;
+}
+
+body {
+    background: #222222;
+    min-height: 100%;
+}
+
+/* avoiding using flexbox b/c <IE10 users */
+.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* avoiding using flexbox b/c <IE10 users */
+
+.center-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0 50px 0;
+    left: 50%;
+}
+
+#centerbox {
+    width: 500px;
+    margin: 0 auto;
+}
+
+* {
+    transition: color 0.3s linear;
+}
+
+/* make sure span keeps this color */
+   span {
+       color: #1ed760 !important;
+   }
+
+
+a:link, a:visited {
+    color: #4e4e4e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #8e8e8e;
+    text-decoration: underline;
+}
+
+p {
+    color: #222222;
+}
+
+p:hover, p.hover {
+              color: #3e3e3e;
+          }
