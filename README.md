@@ -2,21 +2,23 @@
 front-end design &amp; animation tests for https://github.com/oaao/specify
 
 
-## morsels
+## pages
 
-- **Loading**
+a) [Landing Page](https://oaao.github.io/specify-uitests/pages/main/main.html)
+
+
+## snippets/tests
+
+- **loading / time-cycles**
 
     + [spoked wheel traversal](https://oaao.github.io/specify-uitests/animation/loading1/loading1.html)
 
-    + sliced breathing sphere
+    + [ dark ] [sliced breathing sphere](https://oaao.github.io/specify-uitests/animation/loading2/loading2.html)
 
-        i. [normal](https://oaao.github.io/specify-uitests/animation/loading2/loading2.html)
+    + [ light ] [sliced breathing sphere](https://oaao.github.io/specify-uitests/animation/loading2/loading2_soft.html)
 
-        ii. [soft](https://oaao.github.io/specify-uitests/animation/loading2/loading2_soft.html)
+    + [ cel ] [sliced breathing sphere](https://oaao.github.io/specify-uitests/animation/loading2/loading2_cel.html)
 
-        iii. [cel-like](https://oaao.github.io/specify-uitests/animation/loading2/loading2_cel.html)
-
-
-- **Content Reveal**
+- **content reveal animations**
 
     + [polygonal text reveal](https://oaao.github.io/specify-uitests/animation/splash_reveal/poly.html)
